@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+            </div>
+        </div>
+        <div class="hero-wrapper">
+            <div class="hero">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/pexels-alessio-cesario-1906830.jpg"alt="" class="imag">
+                    </div>
+                    <div class="ditals">
+                        <h2>rose jack</h2>
+                        <p>UI UX Designer</p>
+                    </div>
+                    <div class="conect">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <span>+01204042183</span>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <span>exampel@gmail.com</span>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <span>tanta.4500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4>Hello I’M</h4>
+                    <h1> rose jack</h1>
+                    <h3>UI / UX Designer and Devoleper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       helllllo Doloremque alias  helllllo Doloremque alias</p>
+                    <button>Download cv</button>
+                    <div class="social">
+                        <span>follow Me :</span>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <div class="icon">
+                            <i class="fa fa-home"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon">
+                            <i class="fa fa-user"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon">
+                            <i class="fa fa-gear"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon">
+                            <i class="fa fa-address-book"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+
+            <p>Developed by @hgjh 2023</p>
+            <p>terms & condition <span>privacy policy</span></p>
+        </div>
+    </div>
+    <script>
+let moon= document.querySelector(".header .fa-moon");
+let sun= document.querySelector(".header .fa-sun");
+moon.addEventListener("click",function(){
+    document.body.classList.add("light-theme");
+    moon.style.display="none";
+    sun.style.display="block";
+})
+sun.addEventListener("click",function(){
+    document.body.classList.remove("light-theme");
+    moon.style.display="block";
+    sun.style.display="none";
+})
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
